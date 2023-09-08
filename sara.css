@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(231, 230, 230);
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(231, 230, 230);
+}
+
+.page-top {
+    display: flex;
+    height: 150px;
+    width: 50%;
+}
+
+.top-navigation {
+    margin: 0;
+    padding: 0.6em;
+    overflow: hidden;
+}
+
+li a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-left: 225px;
+    font-size: 28px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+li a:hover {
+    opacity: 40%;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer {
+    position: relative;
+    width: 1500px;
+    height: 100px;
+    overflow: hidden;
+    background-color: rgb(231, 230, 230);
+}
+
+.bottom-navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.6em;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 40px;
+    right: 110px;
+    margin: 0;
+    color: rgb(71, 136, 201);
+    font-size: 45px;
+    text-align: center;
+}
+
+.top-container {
+    position: flex;
+}
+
+.body {
+    position: fixed;
+    margin-top: 200px;
+    overflow:visible;
+}
+
+.sara {
+    display: flex;
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+fieldset {
+    position: absolute;
+    margin-right: 100px;
+    height: 220px;
+    width: 50%;
+    right: 200px;
+    top:50px;
+    border: solid black;
+}
+
+legend {
+    background-color:black;
+    color: white;
+}

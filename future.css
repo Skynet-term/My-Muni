@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(231, 230, 230);
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(231, 230, 230);
+}
+
+.page-top {
+    display: flex;
+    height: 150px;
+    width: 50%;
+}
+
+.top-navigation {
+    margin: 0;
+    padding: 0.6em;
+    overflow: hidden;
+}
+
+#top-navigation a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-left: 225px;
+    font-size: 28px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#bottom-navigation a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-left: 225px;
+    font-size: 28px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+li a:hover {
+    opacity: 40%;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer {
+    position: relative;
+    width: 1500px;
+    height: 100px;
+    overflow: hidden;
+    background-color: rgb(231, 230, 230);
+}
+
+.bottom-navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.6em;
+    overflow: hidden;
+}
+
+.body {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 300px;
+    overflow: visible;
+    width: 1500px;
+    height: 350px;
+}
+
+h1 {
+    position: absolute;
+    top: 40px;
+    right: 110px;
+    margin: 0;
+    color: rgb(71, 136, 201);
+    font-size: 45px;
+    text-align: center;
+}
+
+.top-container {
+    position: flex;
+}
+
+/*The above code is for each page. Below this code will be for home.html*/
+
+.family a {
+    display: flex;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.house a {
+    display: flex;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    right: 370px;
+}
+
+.farming a {
+    display: flex;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    left: 0;
+}
+
+.cruise a {
+    display: flex;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.cattle a {
+    display: flex;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    right: 330px;
+    bottom: 0;
+}
+
+.healthy a {
+    display: flex;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
